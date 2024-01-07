@@ -42,7 +42,7 @@ Offline phase (before `b` is available):
     C_a := PedersenCOMM(a; α) 
          = sum_i (a_i * G_i) + α * H
     where G_i and H are random group elements, 
-    and s is sampled randomly.
+    and α is sampled randomly.
                             --------- C_a ---------->
 
 Online phase for a given public vector `b` (can be repeated for different `b`s):
